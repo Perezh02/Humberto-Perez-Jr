@@ -67,10 +67,18 @@
      </div>   
     </section>
     <footer id="contact-me">
-        <h2>Contact me</h2>
-        <p>Humbertoperezjr114@gmail.com</p>
-        <p>103 Hyacinth Rd Goldsboro, NC</p>
-        <p>(716)-201-9776</p>
+        <div class="styled-form">
+            <form action="https://formsubmit.co/Humbertoperezjr114@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New email!" />
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </footer>
     <script src="app.js"></script>
     </body>
