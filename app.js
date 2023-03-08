@@ -15,7 +15,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-1", {
-    strings: ["Fullstack Developer", "Veteran", "Passionate about purpose", ""],
+    strings: ["Software Engineer", "Veteran", "Passionate about purpose", ""],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
